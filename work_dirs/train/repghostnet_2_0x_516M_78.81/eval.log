@@ -1,0 +1,2 @@
+# CUDA_VISIBLE_DEVICES=0 python3 validate.py -b 32 --model-ema --model repghost.repghostnet_2_0x --resume work_dirs/train/repghostnet_2_0x_516M_78.81/model_best.pth.tar
+eval_metrics = OrderedDict([('loss', 0.897983897819519), ('top1', 78.806), ('top5', 94.326)])

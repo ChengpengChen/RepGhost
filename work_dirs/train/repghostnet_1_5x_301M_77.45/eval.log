@@ -1,0 +1,1 @@
+eval_metrics = OrderedDict([('loss', 0.9776309717464448), ('top1', 77.454), ('top5', 93.5)])
