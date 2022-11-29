@@ -1,4 +1,4 @@
-We report the results based on the released models in [GoogleDrive](https://drive.google.com/drive/folders/1aL5UkhXgevyoQDo_cLmmd-DUfZcAFRXu?usp=share_link), as in ```eval.log```.
+We report the results based on the released models in [GoogleDrive](https://drive.google.com/drive/folders/1aL5UkhXgevyoQDo_cLmmd-DUfZcAFRXu?usp=share_link) and [百度网盘](https://pan.baidu.com/s/1yz7IdlagAL8LMf_NvjrbZw?pwd=qy7c), as in ```eval.log```.
 
 Note that the results differ to that in ```train.log``` slightly, this is because of the BN statistics.
 During training, the models are evaluated using 8 GPUs, in which each GPU has its own BN statistics, 
