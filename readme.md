@@ -73,7 +73,7 @@ We compare RepGhostNet to [MobileOne](https://arxiv.org/abs/2206.04040) on iPhon
 The MobileOne series models are $\mu0$, $\mu1$, $\mu2$, S0, S1, S2, S3 and S4.
 
 <p align="center">
-<img src="figs/accuracy_to_latency_iphone12cpu.png" width=256>
+<img src="figs/accuracy_to_latency_iphone12cpu.png" width=384>
 </p>
 
 
