@@ -68,6 +68,14 @@ flops, params = cal_flops_params(model, input_size=(1, 3, 224, 224))
 #### Latency
 We first export our pytorch model to a ONNX one, and then use [MNN](https://github.com/alibaba/MNN) to convert it to MNN format, at last evaluate its latency on an ARM-based mobile phone.
 
+#### Comparisons to MobileOne on iPhone12 CPU
+We compare RepGhostNet to [MobileOne](https://arxiv.org/abs/2206.04040) on iPhone12 CPU based on [ModelBench](https://github.com/apple/ml-mobileone/tree/main/ModelBench). The result is shown below.
+The MobileOne series models are $\mu0$, $\mu1$, $\mu2$, S0, S1, S2, S3 and S4.
+
+<p align="center">
+<img src="figs/accuracy_to_latency_iphone12cpu.png" width=256>
+</p>
+
 
 ### Citations
 If RepGhostNet helps your research or work, please consider citing:
